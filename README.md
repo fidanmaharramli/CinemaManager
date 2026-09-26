@@ -1,67 +1,114 @@
 # 🌸 Welcome to Cinema Manager CLI System 🍿
 
-### `Robust Backend & Database System Built with C# and .NET 10` 💻
+### `Cinema Management System built with C# and .NET 10` 💻
 
 ---
 
 ## 🎀 ABOUT THE PROJECT
 
-**Cinema Manager** is a high-performance backend Console Relationship Management (CRM) prototype designed for movie theaters. It effortlessly handles movie catalogs, tracks custom audiences, manages live ticket purchases, and implements strict business logic validations.
+**Cinema Manager** is a console-based cinema management system built with **C#**, **.NET 10**, **Entity Framework Core** and **SQL Server**.
 
-### 💮 Key Features:
-* 🎬 **Comprehensive Movie Registry:** Full CRUD operations categorized by structural genres.
-* 👥 **Customer Relationship Management:** Database tracking of custom profiles and metadata.
-* 🎟️ **Advanced Ticket Transaction Engine:** Multi-entity table relationships mapping customers directly to live movie screenings.
-* 🔒 **Data Integrity & Validations:** Safe numeric parsing (`int.TryParse`), input checks, and zero-crash exception handling.
+The application allows users to manage movies and customers, buy and cancel tickets, search records and validate ticket purchases.
+
+### 💮 Main Features
+
+* 🎬 Movie management
+* 👥 Customer management
+* 🎟️ Ticket purchase and cancellation
+* 🔎 Search by Id
+* 🔒 Business validation
+* 🗄️ SQL Server database integration
 
 ---
 
-## 🧠 SYSTEM ARCHITECTURE
+## 🛠️ TECHNOLOGIES
 
-This project follows a strict **N-Tier Layered Architecture** to ensure clean separation of concerns and maintainable code:
+`C#` · `.NET 10` · `Entity Framework Core` · `SQL Server` · `LINQ` · `Git` · `GitHub`
+
+---
+
+## 🧠 PROJECT STRUCTURE
 
 ```text
- ── CinemaManager.Entities (Core Domain Models: Movie, Customer, Ticket)
-      ▲
-      │ (References Domain)
- ── CinemaManager.Data     (AppDbContext, SQL Server Schema Configurations)
-      ▲
-      │ (Manages Transactions)
- ── CinemaManager.Services (CinemaService: Core Business Logic & Queries)
-      ▲
-      │ (Triggers Operations)
- ── Main Application       (Program.cs CLI Engine with UTF-8 UI Rendering)
+CinemaManager
+│
+├── Entities
+│   ├── Genre.cs
+│   ├── Movies.cs
+│   ├── Customer.cs
+│   └── Ticket.cs
+│
+├── Data
+│   └── AppDbContext.cs
+│
+├── Services
+│   └── CinemaService.cs
+│
+└── Program.cs
 ```
 
----
+### 📦 Main Entities
 
-## 🛠️ TECHNOLOGIES USED
-
-* 💻 **Languages & Frameworks:** `C#` | `.NET 10` | `Entity Framework Core`
-* 🗄️ **Database & Data Access:** `Microsoft SQL Server` | `LINQ Queries`
-* 🔧 **Development Tools:** `Git & GitHub` | `Visual Studio` | `SQL Server Management Studio (SSMS)`
-
----
-
-## 🗄️ DATABASE DATA MATRIX
-
-| 🌷 System Entity | 💗 Properties & Fields Managed | 🎀 Relational Status |
-|---|---|---|
-| **Movie** | `Id`, `Title`, `Genre` (Enum), `Duration` (min), `AgeLimit` | Core Catalog |
-| **Customer** | `Id`, `Name`, `Age` | User Directory |
-| **Ticket** | `Id`, `MovieId` (FK), `CustomerId` (FK), `SeatNumber`, `Price` | Transactional Mapping |
+| Entity | Main Properties |
+|---|---|
+| **Movie** | `Id`, `Title`, `Genre`, `Duration`, `AgeLimit` |
+| **Customer** | `Id`, `Name`, `Age` |
+| **Ticket** | `Id`, `MovieId`, `CustomerId`, `SeatNumber`, `Price` |
 
 ---
 
-## 🌸 CORE DESIGN PRINCIPLES
-> *"Clean code always looks like it was written by someone who cares."*
+## 🔒 VALIDATION
 
-* **Progress Over Perfection:** Constantly refactoring code and learning advanced database features.
-* **Graceful Debugging:** Conquered the trickiest Entity Framework `IDENTITY_INSERT` bugs like a real engineer! 💻
-* **Continuous Growth:** Powered by curiosity, .NET logic, and persistent practice.
+The system checks:
+
+* Duplicate IDs
+* Existing movies and customers
+* Customer age restrictions
+* Ticket price
+* Occupied seats
+* Invalid user input
+
+---
+
+## 🗄️ DATABASE
+
+Database:
+
+```text
+CinemaManagerDb
+```
+
+SQL Server:
+
+```text
+.\SQLEXPRESS
+```
+
+Entity Framework Core is used to communicate with the database and manage relationships between **Movies, Customers and Tickets**.
+
+---
+
+## ▶️ RUN THE PROJECT
+
+Create the database with Entity Framework Core:
+
+```powershell
+Add-Migration InitialCreate
+Update-Database
+```
+
+Then run the project from **Visual Studio**.
+
+---
+
+## 🌸 GITHUB
+
+Repository: **CinemaManager**
+
+Built as a practical C# and .NET learning project.
 
 ---
 
 <p align="center">
-  🎀 <i>Thanks for visiting this pink corner of my backend engineering portfolio!</i> 🌸
+  🎀 <i>Thanks for visiting my little cinema corner!</i> 🍿🌸
 </p>
