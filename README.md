@@ -70,37 +70,6 @@ The system checks:
 
 ---
 
-## 🗄️ DATABASE
-
-Database:
-
-```text
-CinemaManagerDb
-```
-
-SQL Server:
-
-```text
-.\SQLEXPRESS
-```
-
-Entity Framework Core is used to communicate with the database and manage relationships between **Movies, Customers and Tickets**.
-
----
-
-## ▶️ RUN THE PROJECT
-
-Create the database with Entity Framework Core:
-
-```powershell
-Add-Migration InitialCreate
-Update-Database
-```
-
-Then run the project from **Visual Studio**.
-
----
-
 ## 🌸 GITHUB
 
 Repository: **CinemaManager**
