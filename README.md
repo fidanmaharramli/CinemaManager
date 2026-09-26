@@ -1,47 +1,39 @@
-<div align="center">
+# 🌸 Welcome to Cinema Manager CLI System 🍿
 
-<img src="https://vercel.app" width="100%"/>
+<p align="center">
+  <img src="https://vercel.app" width="100%"/>
+</p>
 
-# 🎬 Cinema Manager CLI System 🍿
+### `Robust Backend & Database System Built with C# and .NET 10` 💻
 
-### `Robust Backend & Database System Built with C# and .NET 10`
+<p align="center">
+  <img src="https://demolab.com" alt="Typing SVG"/>
+</p>
 
-<img src="https://demolab.com" alt="Typing SVG"/>
-
-<br>
-
-<img src="https://shields.io"/>
-<img src="https://shields.io"/>
-<img src="https://shields.io"/>
-<img src="https://shields.io"/>
-
-</div>
+<p align="center">
+  <img src="https://shields.io"/>
+  <img src="https://shields.io"/>
+  <img src="https://shields.io"/>
+  <img src="https://shields.io"/>
+</p>
 
 ---
 
-<div align="center">
-
 ## 🎀 ABOUT THE PROJECT
-
-</div>
 
 **Cinema Manager** is a high-performance backend Console Relationship Management (CRM) prototype designed for movie theaters. It effortlessly handles movie catalogs, tracks custom audiences, manages live ticket purchases, and implements strict business logic validations (such as duration limits and secure ID processing).
 
 ### 🌸 Key Features:
-- 🎬 **Comprehensive Movie Registry:** Full CRUD operations categorized by structural genres.
-- 👥 **Customer Relationship Management:** Database tracking of custom profiles and metadata.
-- 🎟️ **Advanced Ticket Transaction Engine:** Multi-entity table relationships mapping customers directly to live movie screenings.
-- 🔒 **Data Integrity & Validations:** Safe numeric parsing (`int.TryParse`), input checks, and zero-crash exception handling.
+* 🎬 **Comprehensive Movie Registry:** Full CRUD operations categorized by structural genres.
+* 👥 **Customer Relationship Management:** Database tracking of custom profiles and metadata.
+* 🎟️ **Advanced Ticket Transaction Engine:** Multi-entity table relationships mapping customers directly to live movie screenings.
+* 🔒 **Data Integrity & Validations:** Safe numeric parsing (`int.TryParse`), input checks, and zero-crash exception handling.
 
 ---
-
-<div align="center">
 
 ## 🧠 SYSTEM ARCHITECTURE
 
 This project follows a strict **N-Tier Layered Architecture** to ensure clean separation of concerns and maintainable code:
-
-</div>
 
 ```text
  ── CinemaManager.Entities (Core Domain Models: Movie, Customer, Ticket)
@@ -58,28 +50,20 @@ This project follows a strict **N-Tier Layered Architecture** to ensure clean se
 
 ---
 
-<div align="center">
-
 ## 🛠️ TECHNOLOGIES USED
 
-### Languages & Frameworks
+### 💻 Languages & Frameworks
 <img src="https://skillicons.dev"/>
 
-### Database & Data Access
+### 🗄️ Database & Data Access
 <img src="https://skillicons.dev"/>
 
-### Development Tools
+### 🔧 Development Tools
 <img src="https://skillicons.dev"/>
-
-</div>
 
 ---
 
-<div align="center">
-
 ## 🗄️ DATABASE DATA MATRIX
-
-</div>
 
 | System Entity | Properties & Fields Managed | Relational Status |
 |---|---|---|
@@ -89,11 +73,7 @@ This project follows a strict **N-Tier Layered Architecture** to ensure clean se
 
 ---
 
-<div align="center">
-
 ## 🎨 PROJECT PREVIEW
-
-</div>
 
 The application comes bundled with a beautifully customized **Magenta & Soft Pink Console UI Layer**, optimized with native `UTF-8` character encoding for seamless rendering of smooth modern UI borders and responsive menu flows:
 
@@ -114,32 +94,28 @@ The application comes bundled with a beautifully customized **Magenta & Soft Pin
 
 ---
 
-<div align="center">
-
 ## 📊 GITHUB PROFILE STATS
 
-<img src="https://vercel.app" />
-<img src="https://vercel.app" />
+<p align="center">
+  <img src="https://vercel.app" height="150" />
+  <img src="https://vercel.app" height="150" />
+</p>
 
-<br><br>
-
-<img src="https://demolab.com" />
-
-</div>
+<p align="center">
+  <img src="https://demolab.com" />
+</p>
 
 ---
-
-<div align="center">
 
 ## 🌸 CORE DESIGN PRINCIPLES
 > *"Clean code always looks like it was written by someone who cares."*
 
-- **Progress Over Perfection:** Constantly refactoring code and learning advanced database features.
-- **Graceful Debugging:** Conquered the trickiest Entity Framework `IDENTITY_INSERT` bugs like a real engineer! 💻
-- **Continuous Growth:** Powered by curiosity, .NET logic, and persistent practice.
+* **Progress Over Perfection:** Constantly refactoring code and learning advanced database features.
+* **Graceful Debugging:** Conquered the trickiest Entity Framework `IDENTITY_INSERT` bugs like a real engineer! 💻
+* **Continuous Growth:** Powered by curiosity, .NET logic, and persistent practice.
 
 ---
 
-🎀 *Thanks for visiting this pink corner of my backend engineering portfolio!* 🌸
-
-</div>
+<p align="center">
+  🎀 <i>Thanks for visiting this pink corner of my backend engineering portfolio!</i> 🌸
+</p>
