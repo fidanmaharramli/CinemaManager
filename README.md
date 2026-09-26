@@ -1,29 +1,14 @@
 # 🌸 Welcome to Cinema Manager CLI System 🍿
 
-<p align="center">
-  <img src="https://vercel.app" width="100%"/>
-</p>
-
 ### `Robust Backend & Database System Built with C# and .NET 10` 💻
-
-<p align="center">
-  <img src="https://demolab.com" alt="Typing SVG"/>
-</p>
-
-<p align="center">
-  <img src="https://shields.io"/>
-  <img src="https://shields.io"/>
-  <img src="https://shields.io"/>
-  <img src="https://shields.io"/>
-</p>
 
 ---
 
 ## 🎀 ABOUT THE PROJECT
 
-**Cinema Manager** is a high-performance backend Console Relationship Management (CRM) prototype designed for movie theaters. It effortlessly handles movie catalogs, tracks custom audiences, manages live ticket purchases, and implements strict business logic validations (such as duration limits and secure ID processing).
+**Cinema Manager** is a high-performance backend Console Relationship Management (CRM) prototype designed for movie theaters. It effortlessly handles movie catalogs, tracks custom audiences, manages live ticket purchases, and implements strict business logic validations.
 
-### 🌸 Key Features:
+### 💮 Key Features:
 * 🎬 **Comprehensive Movie Registry:** Full CRUD operations categorized by structural genres.
 * 👥 **Customer Relationship Management:** Database tracking of custom profiles and metadata.
 * 🎟️ **Advanced Ticket Transaction Engine:** Multi-entity table relationships mapping customers directly to live movie screenings.
@@ -52,58 +37,19 @@ This project follows a strict **N-Tier Layered Architecture** to ensure clean se
 
 ## 🛠️ TECHNOLOGIES USED
 
-### 💻 Languages & Frameworks
-<img src="https://skillicons.dev"/>
-
-### 🗄️ Database & Data Access
-<img src="https://skillicons.dev"/>
-
-### 🔧 Development Tools
-<img src="https://skillicons.dev"/>
+* 💻 **Languages & Frameworks:** `C#` | `.NET 10` | `Entity Framework Core`
+* 🗄️ **Database & Data Access:** `Microsoft SQL Server` | `LINQ Queries`
+* 🔧 **Development Tools:** `Git & GitHub` | `Visual Studio` | `SQL Server Management Studio (SSMS)`
 
 ---
 
 ## 🗄️ DATABASE DATA MATRIX
 
-| System Entity | Properties & Fields Managed | Relational Status |
+| 🌷 System Entity | 💗 Properties & Fields Managed | 🎀 Relational Status |
 |---|---|---|
 | **Movie** | `Id`, `Title`, `Genre` (Enum), `Duration` (min), `AgeLimit` | Core Catalog |
 | **Customer** | `Id`, `Name`, `Age` | User Directory |
 | **Ticket** | `Id`, `MovieId` (FK), `CustomerId` (FK), `SeatNumber`, `Price` | Transactional Mapping |
-
----
-
-## 🎨 PROJECT PREVIEW
-
-The application comes bundled with a beautifully customized **Magenta & Soft Pink Console UI Layer**, optimized with native `UTF-8` character encoding for seamless rendering of smooth modern UI borders and responsive menu flows:
-
-```text
-╔══════════════════════════════════════════════════╗
-║               CINEMA MANAGER                     ║
-╠══════════════════════════════════════════════════╣
-║                                                  ║
-║     FILMLER                                      ║
-║   1.  Film elave et                              ║
-║   2.  Butun filmleri goster                      ║
-...
-║     BILETLER                                     ║
-║   8.  Bilet al                                   ║
-║   9.  Butun biletleri goster                     ║
-╚══════════════════════════════════════════════════╝
-```
-
----
-
-## 📊 GITHUB PROFILE STATS
-
-<p align="center">
-  <img src="https://vercel.app" height="150" />
-  <img src="https://vercel.app" height="150" />
-</p>
-
-<p align="center">
-  <img src="https://demolab.com" />
-</p>
 
 ---
 
